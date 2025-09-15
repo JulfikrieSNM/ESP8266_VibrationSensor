@@ -4,12 +4,12 @@
 #include <ArduinoJson.h>
 
 // Replace with your WiFi credentials
-const char* ssid = "Redmi 15 5G";
-const char* password = "Jul12345";
+const char* ssid = "SpektraAdmin-2.4Ghz@unifi";
+const char* password = "SPEKTRA4419";
 
 // Telegram bot details
-#define BOTtoken "8392570155:AAGM0tv4rWp3nf92a9s3zQT0kcqVXHHCOJo"   // From BotFather
-#define CHAT_ID "1127978350"      // From @userinfobot
+#define BOTtoken "[TOKEN]"   // From BotFather
+#define CHAT_ID "[ChatID]"      // From https://api.telegram.org/bot[TOKEN]/getUpdates
 
 WiFiClientSecure client;
 UniversalTelegramBot bot(BOTtoken, client);
